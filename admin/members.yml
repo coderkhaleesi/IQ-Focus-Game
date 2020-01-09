@@ -1,0 +1,11 @@
+# List the membership of this group.  (Remove entries if you have fewer
+# than three members.)
+#
+
+members:
+  - name: Tanya Dixit
+    uid: u7043565
+  - name: Samuel Hollis-Brown
+    uid: u6665119
+  - name: Mahesh Gunbubogula
+    uid: u7010097

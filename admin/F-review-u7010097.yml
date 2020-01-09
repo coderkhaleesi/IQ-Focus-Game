@@ -1,0 +1,37 @@
+# Write your name and UID here.
+#
+reviewer:
+    name: Mahesh Gundubogula
+    uid: u7010097
+
+# Write the name of the author of the code here.
+#
+author:
+  name: Samuel Hollis-Brown
+  uid: u6665119
+
+# Write the class or method being reviewed here.
+#
+component:
+ Block 1, Block 2
+
+# Write a list of review comments here.
+#
+comments:
+  - Block 1 , 2
+  - The best features of this code are the following
+  -  It's easy to read, understand and follow.
+  -  Every Piece of Command is written in a seperate line which is easy to intrepret and understand.
+  -  Most of the code have comments written by the side of it which tells us how a particular command and it's components function as a whole.
+  -  The code imports required java fx applications and uses them quite efficiently.
+  -  It would have been more efficient had if the comments been able to explain more clearly how we arrived at the sizes (width and Height) of the Grid, board and respective tiles.
+  -  The use of if else statements is in a structured manner, meaning one condition is checked after another which makes it easy to follow the code and understand.
+  -  The code makes the sizes of rotated tiles proper by accessing width and height of the tile based on the orientation.
+  -  It's Commendable that the Java FX code has been used quite efficiently
+  -  The snapToGrid function is needed as part of the DraggableTile class and works nicely to add functionality to the draggable tile.
+  -  The code implements the rules of the game retroactively by adapting the current java Fx methods
+
+
+
+
+

@@ -1,0 +1,54 @@
+# Write your name and UID here.
+#
+reviewer:
+    name: Tanya Dixit
+    uid: u7043565
+
+# Write the name of the author of the code here.
+#
+author:
+  name: Mahesh Gundubogula
+  uid: u7010097
+
+# Write the class or method being reviewed here.
+#
+component:
+
+  Block 1, Block 2, Block 3, Block 4
+
+# Write a list of review comments here.
+#
+comments:
+  - Block 1 , 2
+  - The best features of this code are the following
+  -     It's relatively easy to read, and is not too cluttered
+  -     The code makes use of if else statements in an efficient manner, meaning one condition is checked using one if-else statemet which makes it quite readable and efficient as well.
+  -     Not too many conditions are squashed into one statement, which is good for readability and efficiency since these are OR statements.
+
+  - Some parts of the code have comments, but I feel that there could be more comments which tell why this function does what it does, and how it fits into the overall FocusGame java class. The code should be documented better.
+    My suggestion would be to write more comments explaining how the function and parts of the function work together with the bigger picture of the objective we are trying to achieve, or application we are trying to develop.
+  - The following code is a method of the FocusGame java class, and the method is appropriately made static as we will access it from our Board.java class. Also, the return type is apt as boolean as we need a yes or no answer to if the String is well-formed and the piece is well-formed.
+  - The code does follow conventions in naming as it follows the Camel naming system which is used thorughout Java and throughout this whole game as well. The parameters, local variables are also named according to convention, and this is one of the reasons why this code is quite readable.
+    It also follows some general conventions of good code like DRY - Don't Repeat Yourself as I don't see redundancy in the code. Also, the code follows another good coding practice - KISS - Keep It Simple Silly, which I think is a good thingn to follow.
+  - There are tests written for the code which cover almost every case, so I don't suspect any errors in this code at least. Also, I feel like it's a code for a pretty basic situation which covers all the possible corner cases.
+
+  - Block 3 , 4
+  - The best features of this code are the following
+  -     This code is written quite compactly.
+  -     The block 4 code uses a very smart trick to make the sizes of rotated tiles proper by accessing width and height of the tile based on the orientation. It's easy to understand and compact.
+
+  - The code is not very well-documented and should have more comments. It is lacking in explaining what it's trying to do and if I would to return to it after 1 year, I would not be able to understand what we are trying to do using this code.
+    For e.g. I would never understand why we are using specific values like 268, 726 etc. So I think it could be better documented. One suggestion from my side is that while writing code just try to explain why you're doing something and how you reached at some conclusion. That would be helpful for you when you return to read the code after a long time.
+    It also helps to write down your thoughts and makes the process of writing code faster and easier because you already have in mind what you are going to write. You just need to convert it into JAVA(code) now.
+  - The code is too small to comment on the class structure, but the method in which it's written is well-built and nicely complements the other methods and its class as well. We need the snapToGrid function is needed as part of the DraggableTile class and works nicely to add functionality to the draggable tile.
+  - Yes the code is following JAVA Camel naming conventions. It also follows some general conventions of good code like DRY - Don't Repeat Yourself as I don't see redundancy in the code. Also, the code follows another good coding practice - KISS - Keep It Simple Silly, which I think is a good thingn to follow.
+  - For Block 3, currently, I think the conditions for snapping to home location should be tested because I feel that if X < 826, it will always snapToHome which should not happen.
+    For Block 4, I feel that it's a correct code and cannot think of any situation in which it will be a problem.
+
+
+
+
+
+
+
+

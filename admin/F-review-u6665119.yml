@@ -1,0 +1,62 @@
+# Write your name and UID here.
+#
+reviewer:
+    name: Samuel Hollis-Brown
+    uid: u6665119
+
+# Write the name of the author of the code here.
+#
+author:
+  name: Tanya Dixit
+  uid: u7043565
+
+# Write the class or method being reviewed here.
+#
+component:
+
+  BLOCK 1, BLOCK 2, BLOCK 3
+
+
+# Write a list of review comments here.
+#
+comments:
+
+  - Block 1 , 2
+  - This code is very well thought out and planned in enough detail as to cover all the current possible uses and requirements for the tiles and types,
+    the code is structured very well and the style is remarkably consistant.
+  - The clever use of abstract data types and extended classes allows for all the tiles unique properties to be defined in detail, such as the x and y
+    offsets, orientation and colours of each segment.
+  - The clever use of the x offsets to fill the role of the y offsets was a very good decision to reduce clutter, complexity and increase the efficiency
+    and human readability. The y offsets follow a pattern of simply being the previous entry of the corresponding x offset.
+  - This system is designed perfectly for the task at hand with all the different tile data variations in mind when designed. Streamlined and without
+    clutter. Easily readable and understood, all the mothods and classes are named appropriately.
+  - The classes are structured in a way that allows for easy adaption and addition to the code and tile properties later on for specific issues and
+    unforseen issues.
+  - There is nothing easily said about this code that is incorrect or inefficient.
+  - The only problem that could be pointed out is perhaps the documenting of the code as there is little to none, more documenting and comments are a good
+    idea in the future to make the code more easy to follow for others as the code forms a significant component for many other operations.
+
+
+  - Block 3
+  - The best feature of this code is perhaps the use of the for conditions used to check for sulutions in the boardstate, this is because of the simplicity
+    of this section of code and its effectiveness at working through the task.
+  - This code makes effective and proper use of helper functions to divide the processes and intergrates them well into the recursive method.
+  - This code is a clever solution using recursion and incrementation to systematically build a list of acrued solutions to the problem, with this goal in
+    mind the code is built well for the extensive task of incrementing through the tiles and all their placements to find a game solution.
+  - Good use of the boardstate to visualise the placement of the board also shows the good structure of the code and methods, all following the same style.
+  - The methods are named well but variables are not, leading to a few issues with readability and understanding some of the later actions of the code
+    when the variables are abstractly named, however this is appropriate for the task as it makes use of many for statements.
+  - The code takes a bit of time to work through due to the extensive task, however due to the complex nature of the task a streamlined and faster process
+    may be difficult to concieve of.
+  - A lack of comments is unfreindly for other users to read and comprehend the processes quickly.
+  
+
+
+
+
+
+
+
+
+
+
