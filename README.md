@@ -1,5 +1,13 @@
 # COMP1110 Assignment 2
 
+## Commands to run the game
+
+Run from C:
+
+set PATH_TO_FX="openjfx-11.0.2_windows-x64_bin-sdk\javafx-sdk-11.0.2\lib\"
+
+java --module-path %PATH_TO_FX% --add-modules javafx.controls,javafx.fxml -jar IQ-Focus-Game\game.jar
+
 ## Academic Honesty and Integrity
 
 Honesty and integrity are of utmost importance. These goals are *not* at odds with being resourceful and working collaboratively. You *should* be resourceful, you should collaborate within your team, and you should discuss the assignment and other aspects of the course with others taking the class. However, *you must never misrepresent the work of others as your own*. If you have taken ideas from elsewhere or used code sourced from elsewhere, you must say so with *utmost clarity*. At each stage of the assignment you will be asked to submit a statement of originality, either as a group or as individuals. This statement is the place for you to declare which ideas or code contained in your submission were sourced from elsewhere.
